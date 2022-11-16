@@ -19,6 +19,13 @@
     }
 
 
+    /* 1 - HEADER */
+
+    .header-section{
+        width: calc(100vw - 150px);
+    }
+
+
     /* FOOTER */
 
     .cover-footer{
