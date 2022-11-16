@@ -5,6 +5,10 @@
     color: #ffffff;
 }
 
+.block-to-none{
+    display: block;
+}
+
 
 /* FLEX */
 
@@ -48,4 +52,23 @@
 
 .padding-5{
     padding: 5px;
+}
+
+
+/* HOVER GENERAL */
+
+.hover-green-section:hover .hover-green{
+    background-color: #adff2f;
+}
+
+.hover-white:hover{
+    color: #ffffff;
+}
+
+.hover-underline:hover{
+    text-decoration: underline;
+}
+
+.hover-ratio-20:hover{
+    transform: scale(1.20);
 }
