@@ -1,0 +1,58 @@
+/* --- S --- */
+
+@media screen and (min-width: 576px) {
+
+    /* COMMON */
+
+    
+    /* ASIDE */
+
+    aside{
+        width: 150px;
+    }
+
+
+    /* MAIN CONTAINER */
+
+    .main-container{
+        width: calc(100vw - 150px);
+    }
+
+
+    /* FOOTER */
+
+    .cover-footer{
+        max-width: 25%;
+        display: block;
+    }
+    
+    .cover-footer img{
+        width: 100%;
+    }
+
+    .song-name{
+        flex-direction: row;    }
+    
+}
+
+
+/* --- M --- */
+
+@media screen and (min-width: 768px) {
+
+    /* COMMON */
+
+    .column-to-row{
+        flex-direction: row;
+    }
+    
+}
+
+
+
+/* --- L --- */
+
+@media screen and (min-width: 992px) {
+    
+}
+

@@ -1,0 +1,113 @@
+/* ----
+WRAPPER
+------ */
+
+.wrapper{
+    width: 100vw;
+    height: calc(100vh - 80px);
+}
+
+
+/* --
+ASIDE 
+--- */
+
+aside{
+    width: 30px;
+    height: 100%;
+    background-color: #000000;
+}
+
+
+/* -----------
+MAIN CONTAINER
+------------ */
+
+.main-container{
+    width: calc(100vw - 30px);
+    height: 100%;
+    background-color: #141922;
+}
+
+
+/* 1 - HEADER */
+
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* 2 - MAIN */
+
+main{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+
+/* ----------
+FOOTER PLAYER 
+------------ */
+
+footer{
+    height: 80px;
+    width: 100vw;
+    background-color: #282828;
+    padding: 10px;
+}
+
+.left-footer, .right-footer{
+    width: 200px;
+    height: 100%;
+}
+
+.central-footer{
+    width: 400px;
+    height: 100%;
+    flex-direction: column;
+}
+
+.info-song{
+    flex-direction: column;
+}
+
+.cover-footer{
+    display: none;
+}
+
+.song-name{
+    flex-direction: column;
+}
+
+.player ul{
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+}
+
+.time-bar{
+    width: 100%;
+}
+
+.time-track-bar{
+    font-size: 12px;
+    padding: 0 25px;
+}
+
+.track-bar{
+    height: 5px;
+    width: 80%;
+    border-radius: 20px;
+    background-color: #545454;
+}
+
+.track-bar-actual{
+    height: 5px;
+    width: 20%;
+    border-radius: 20px;
+    background-color: #adadad;
+}
