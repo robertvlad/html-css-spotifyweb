@@ -29,6 +29,59 @@
             <!-- LEFT SIDE -->
 
             <aside>
+                <div class="sidebar flex justify-content-space-between gap-10">
+                    <div class="sidebar-up">
+                        <div class="menu">
+                            <div class="small-logo">
+                                <a class="block-to-none" href="#"><img src="./img/logo-small.svg" alt="Spotify"></a>
+                                <a class="none-to-block" href="#"><img src="./img/logo.svg" alt="Spotify"></a>
+                            </div>
+                            <div class="small-icon flex align-items-center gap-10">
+                                <a href="#"><img class="img-grey hover-icon-sidebar" src="./img/home.svg" alt="Home"></a>
+                                <span class="none-to-block hover-icon-sidebar">Home</span>
+                            </div>
+                            <div class="small-icon flex align-items-center gap-10">
+                                <a href="#"><img class="img-grey hover-icon-sidebar" src="./img/search.svg" alt="Search"></a>
+                                <span class="none-to-block txt-grey hover-icon-sidebar">Cerca</span>
+                            </div>
+                            <div class="small-icon flex align-items-center gap-10">
+                                <a href="#"><img class="img-grey hover-icon-sidebar" src="./img/libreria.svg" alt="Libreria"></a>
+                                <span class="none-to-block txt-grey hover-icon-sidebar">La tua libreria</span>
+                            </div>
+                        </div>
+                        <div class="none-to-block playlist gap-10">
+                            <div class="playlist-title-sidebar">
+                                <span>PLAYLIST</span>
+                            </div>
+                            <div class="small-icon flex align-items-center gap-10">
+                                <i class="fa-solid fa-square-plus txt-grey hover-icon-sidebar"></i>
+                                <span class="none-to-block txt-grey hover-icon-sidebar">La tua libreria</span>
+                            </div>
+                            <div class="new-playlist">
+                                <ul>
+                                    <li class="hover-white">None Playlist</li>
+                                    <li class="hover-white">None Playlist</li>
+                                    <li class="hover-white">None Playlist</li>
+                                    <li class="hover-white">None Playlist</li>
+                                    <li class="hover-white">None Playlist</li>
+                                    <li class="hover-white">None Playlist</li>
+                                    <li class="hover-white">None Playlist</li>                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-down">
+                        <div class="small-icon flex align-items-center gap-10">
+                            <a href="#"><img class="img-grey hover-icon-sidebar" src="./img/download.svg" alt="Download"></a>
+                            <span class="none-to-block txt-grey hover-icon-sidebar">Installa app</span>
+                        </div>
+                        <hr class="none-to-block hr-sidebar">
+                        <div class="small-icon flex align-items-center gap-10">
+                            <a href="#"><img class="img-profile hover-icon-sidebar" src="./img/profile.svg" alt="Profile"></a>
+                            <span class="none-to-block txt-grey hover-icon-sidebar">John Doe</span>
+                        </div>                       
+                    </div>
+                </div>
 
             </aside>
 
@@ -44,8 +97,152 @@
 
                 <!-- SONGS SECTION -->
 
-                <section class="main-section">
-
+                <section class="main-section flex">
+                    <div class="main-menu flex justify-content-center">
+                        <div class="hover-white txt-grey">IN EVIDENZA</div>
+                        <div class="hover-white txt-grey">PODCAST</div>
+                        <div class="hover-white txt-grey">CLASSIFICHE</div>
+                        <div class="hover-white txt-grey">GENERI E MOOD</div>
+                        <div class="hover-white txt-grey">NUOVE USCITE</div>
+                        <div class="hover-white txt-grey">SCOPRI</div>
+                    </div>
+                    <div class="recently-txt">
+                        <span><strong>Recently played</strong></span>
+                    </div>
+                    <div class="cards flex">
+                        <div class="card">
+                            <div class="cover-song-main">
+                                <img class="img-under" src="./img/metal_lifting.jpg" alt="Metal Lifting">
+                                <div class="img-above">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <div class="details-song flex justify-content-center align-items-center gap-10">
+                                <span class="song-name-main"><strong>Heavy Metal</strong></span>
+                                <span class="txt-grey author-name-main">Subtitle</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cover-song-main">
+                                <img class="img-under" src="./img/stranger.jpeg" alt="Stranger things">
+                                <div class="img-above">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <div class="details-song flex justify-content-center align-items-center gap-10">
+                                <span class="song-name-main"><strong>Stranger Things, Vol. 1 (a Netflix Orifinal Series Soundtrack)</strong></span>
+                                <span class="txt-grey author-name-main">Kyle Dixon & Micheal Stein</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cover-song-main">
+                                <img class="img-under" src="./img/aquietplace.jpeg" alt="A quiet place">
+                                <div class="img-above">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <div class="details-song flex justify-content-center align-items-center gap-10">
+                                <span class="song-name-main"><strong>A queit place</strong></span>
+                                <span class="txt-grey author-name-main">Subtitle</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cover-song-main">
+                                <img class="img-under" src="./img/split.jpeg" alt="Split">
+                                <div class="img-above">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <div class="details-song flex justify-content-center align-items-center gap-10">
+                                <span class="song-name-main"><strong>Heavy Metal</strong></span>
+                                <span class="txt-grey author-name-main">Subtitle</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cover-song-main">
+                                <img class="img-under" src="./img/cure.jpeg" alt="A cure for wellness">
+                                <div class="img-above">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <div class="details-song flex justify-content-center align-items-center gap-10">
+                                <span class="song-name-main"><strong>A cure for wellness</strong></span>
+                                <span class="txt-grey author-name-main">Subtitle</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cover-song-main">
+                                <img class="img-under" src="./img/sinister.jpeg" alt="Sinister">
+                                <div class="img-above">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <div class="details-song flex justify-content-center align-items-center gap-10">
+                                <span class="song-name-main"><strong>Sinister</strong></span>
+                                <span class="txt-grey author-name-main">Subtitle</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recently-txt">
+                        <span><strong>Creato per John Doe</strong></span>
+                    </div>
+                    <div class="recently-txt-small">
+                        <span class="txt-grey">Piu ascolti, piu accurati sono i suggerimenti.</span>
+                    </div>
+                    <div class="cards flex">
+                        <div class="card">
+                            <div class="cover-song-main">
+                                <img class="img-under" src="./img/radar.jpeg" alt="Release Radar">
+                                <div class="img-above">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <div class="details-song flex justify-content-center align-items-center gap-10">
+                                <span class="song-name-main"><strong>Release Radar</strong></span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cover-song-main">
+                                <img class="img-under" src="./img/mixdaily.jpeg" alt="Daily Mix 1">
+                                <div class="img-above">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <div class="details-song flex justify-content-center align-items-center gap-10">
+                                <span class="song-name-main"><strong>Daily Mix 1</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recently-txt">
+                        <span><strong>Artisti piu popolari</strong></span>
+                    </div>
+                    <div class="recently-txt-small">
+                        <span class="txt-grey">Piu ascolti, piu accurati sono i suggerimenti.</span>
+                    </div>
+                    <div class="cards flex">
+                        <div class="card">
+                            <div class="cover-song-main">
+                                <img class="rounded-img img-under" src="./img/youg.jpeg" alt="Youg">
+                                <div class="img-above">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <div class="details-song flex justify-content-center align-items-center gap-10">
+                                <span class="song-name-main"><strong>Youg</strong></span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cover-song-main">
+                                <img class="rounded-img img-under" src="./img/einaudi.jpeg" alt="Einaudi">
+                                <div class="img-above">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <div class="details-song flex justify-content-center align-items-center gap-10">
+                                <span class="song-name-main"><strong>Einaudi</strong></span>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </div>
         </div>
@@ -55,7 +252,7 @@
         <footer class="flex justify-content-space-between gap-10">
             <div class="left-footer flex align-items-center">
                 <div class="current-song flex gap-10 padding-3">
-                    <div class="cover-footer">
+                    <div class="cover-footer none-to-block">
                         <img src="./img/sinister.jpeg" alt="Sinister">
                     </div>
                     <div class="info-song flex justify-content-center">

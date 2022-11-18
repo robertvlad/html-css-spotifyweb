@@ -5,6 +5,7 @@ WRAPPER
 .wrapper{
     width: 100vw;
     height: calc(100vh - 80px);
+    overflow: hidden;
 }
 
 
@@ -18,6 +19,36 @@ aside{
     background-color: #000000;
 }
 
+.sidebar{
+    padding: 4px;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.small-icon, .small-logo{
+    width: 100%;
+    cursor: pointer;
+}
+
+.small-icon a img, .small-logo a img{
+    width: 100%;
+}
+
+.small-logo{
+    padding-bottom: 10px;
+}
+
+.img-grey{
+    filter: contrast(75%);
+}
+
+.img-profile{
+    background-color: #808080;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    filter: contrast(75%);
+}
 
 /* -----------
 MAIN CONTAINER
@@ -56,7 +87,84 @@ MAIN CONTAINER
     width: 100%;
     height: 100%;
     overflow-y: auto;
+    padding: 90px 10px 20px;
+    flex-direction: column;
 }
+
+.main-menu{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.main-menu div{
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+.recently-txt{
+    padding: 10px 10px 10px;
+}
+
+.recently-txt span{
+    font-size: 15px;
+}
+
+.recently-txt-small{
+    padding: 0 10px 20px;
+}
+
+.recently-txt-small span{
+    font-size: 10px;
+}
+
+.cards{
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 50%;
+    padding: 10px;
+}
+
+.cover-song-main img{
+    width: 100%;
+}
+
+.cover-song-main{
+    position: relative;
+}
+
+.details-song{
+    flex-direction: column;
+}
+
+.rounded-img{
+    border-radius: 50%;
+}
+
+.img-above{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.img-above i{
+    font-size: 50px;
+}
+
+.cover-song-main:hover .img-under{
+    opacity: 0.5;
+}
+
+.cover-song-main:hover .img-above{
+    display: block;
+}
+
 
 
 /* ----------
@@ -68,6 +176,7 @@ footer{
     width: 100vw;
     background-color: #282828;
     padding: 10px;
+    z-index: 1;
 }
 
 .left-footer, .right-footer{
@@ -142,6 +251,13 @@ footer{
 
 
 /* -------------- HOVER --------------- */
+
+/* ASIDE */
+
+.small-icon:hover .hover-icon-sidebar{
+    color: #ffffff;
+}
+
 
 /* FOOTER */
 

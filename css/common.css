@@ -9,6 +9,10 @@
     display: block;
 }
 
+.none-to-block{
+    display: none;
+}
+
 
 /* FLEX */
 
